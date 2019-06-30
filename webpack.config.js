@@ -15,10 +15,14 @@ module.exports = {
 	output: {
 	    path: __dirname + '/build/',
 	    filename: 'bundle.js',
+   		publicPath: '/',
 	},
 	plugins:[
       new HWP(
            {template: __dirname+'/index.html'}
        )
-   ]
+   ],
+   devServer: {
+      historyApiFallback: true,
+    },
 }
