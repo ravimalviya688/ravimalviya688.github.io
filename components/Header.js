@@ -30,11 +30,11 @@ class ButtonAppBar extends React.Component{
                 <div class="hamburger ml-auto">menu</div>
                 <div class="menu_nav text-right">
                   <ul>
-                    <li class="active"><Link to="/">About</Link></li>
-                    <li><Link to="/skills">Skills</Link></li>
-                    <li><Link to="/education">Education</Link></li>
-                    <li><Link href="/experience">Experience</Link></li>
-                    <li><Link href="/projects">Portfolio</Link></li>
+                   <li class=""><Link to="/">About</Link></li>
+                  <li><Link to="/skills">Skills</Link></li>
+                  <li><Link to="/education">Education</Link></li>
+                  <li><Link to="/experience">Experience</Link></li>
+                  <li><Link to="/projects">Portfolio</Link></li>
                   </ul>
                 </div>
               </div>
